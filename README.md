@@ -6,10 +6,10 @@ O método da bissecção é utilizado para encontrar raízes de funções contí
 
 ![Print do terminal mostrando como executa o programa](screemshot.png)
 
-Para compilar use: `./mb -o mb main.c -lm `
+Para compilar use: `gcc -o mb main.c -lm `
   - -lm pois estamos usando biblioteca matematica
 
-  Já para roda use `mb 0.0 1.0 0.0001` 
+  Já para roda use `./mb 0.0 1.0 0.0001` 
   - Primeiro primeiro parametro é o executável
   - O segundo o terceiro são os extremos do intervalo de iteração
   - O ultimo é o erro permitido
